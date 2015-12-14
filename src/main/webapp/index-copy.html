@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Olga Dudina</title>
+    <meta charset="UTF-8">
+    <link href=\'http://fonts.googleapis.com/css?family=Roboto:300&amp;subset=cyrillic-ext,cyrillic\'
+          rel=\'stylesheet\'
+          type=\'text/css\'>
+    <link href="main.css" rel="stylesheet" type="text/css"/>
+    <link href="icons.css" rel="stylesheet" type="text/css"/>
+
+    <script>
+    $( function() {
+        $('#load').click( function() {
+            $('#res').load( "/servletLab2?queryType=nearest_to_ten" + "&var1=" + 1 + "&var2=" + 2);
+            $('#res').load( "/servletLab3?var1=" + 10 + "&var2=" + 20 + "&withNums=true");
+        } );
+    });
+    </script>
+
+</head>
+<body class="vertical-bg">
+<div class="layout-center-wrapper">
+
+    <div class="avatar-in-profile avatar">
+        <img src="avatar.jpeg">
+
+        <div class="caption white">Olga Dudina</div>
+
+        <ul>
+            <li>
+                <button id="load"></button>
+                    <!--<a href="lab2.html">Лабораторная работа №2</a>-->
+                    <div id="res"></div>
+            </li>
+            <li>
+                <a href="lab3.html">Лабораторная работа №3</a>
+            </li>
+            <li>
+                <a href="https://github.com/olgaoskina/itmo">Лабораторная работа №4</a>
+            </li>
+            <li>
+                <a href="https://github.com/olgaoskina/itmo">Лабораторная работа №6</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<footer class="white">
+    <div class="layout-center-wrapper">
+        <div class="footer-social">
+            <a href="https://vk.com/os.dudina"
+               class="btn-social">
+                <i class="icon-vk"></i>
+            </a>
+            <a href="https://twitter.com/OskinaOlga"
+               class="btn-social">
+                <i class="icon-twitter"></i>
+            </a>
+            <a href="https://plus.google.com/108126331098709832414/posts"
+               class="btn-social">
+                <i class="icon-gplus"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>

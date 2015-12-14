@@ -1,0 +1,143 @@
+.avatar-in-profile {
+    float: left;
+    padding: 5px;
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 50px;
+    position: relative;
+}
+.avatar img {
+    display: block;
+    width: 100%;
+    border: 0;
+    margin: 0;
+}
+.avatar {
+    background: #fff;
+    box-shadow: 0 1px 1px 1px #bbb
+}
+.avatar img.round {
+    border-radius: 50%;
+}
+
+.caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    box-sizing: border-box;
+    font: 15px "Roboto", sans-serif;
+    left: 0;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    width: 96%;
+    margin: 5px;
+}
+
+.white {
+    color: #ffffff;
+}
+
+
+/* footer styles */
+footer {
+    margin-top: 0;
+    color: #ffffff;
+    padding-top: 450px;
+    padding-bottom: 40px;
+}
+
+footer .footer-info {
+    width: 250px;
+    float: left;
+
+    font: 10px "Roboto", sans-serif;
+    text-transform: uppercase;
+    color: #a0a0a0;
+    line-height: 3em;
+}
+
+footer .footer-menu {
+    width: 400px;
+    margin-left: 50px;
+    margin-top: -10px;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+
+footer .footer-menu > a {
+    width: 120px;
+    display: inline-block;
+    font: 14px "Roboto", sans-serif;
+    color: #a0a0a0;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 2.3em;
+    float: right;
+}
+
+footer .footer-menu > a:hover {
+    color: #70c153;
+}
+
+footer .footer-social {
+    width: 170px;
+    float: right;
+    font-size: 0;
+}
+
+footer .btn-social {
+    display: inline-block;
+    padding: 10px 9px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #a0a0a0;
+    background-color: #000000;
+    border-radius: 25px;
+}
+
+footer .btn-social:hover {
+    color: #70c153;
+}
+
+footer .copyright {
+    text-align: center;
+}
+
+footer .copyright p {
+    font: 9px "Roboto", sans-serif;
+    text-transform: uppercase;
+    color: #a0a0a0;
+    line-height: 5em;
+}
+
+.lab_list {
+    float: left;
+    margin-top: 100px;
+    margin-left: 30px;
+    font: 18px "Roboto", sans-serif;
+}
+
+.lab_list li {
+    margin: 25px;
+}
+
+.lab_list li:first-child {
+    list-style-type: none;
+    margin-left: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    background-color: rgba(66, 66, 66, 0);
+    padding: 3px;
+    -webkit-transition: All 1s ease;
+    -moz-transition: All 1s ease;
+    -o-transition: All 1s ease;
+    -moz-box-shadow: 0px 2px 5px #313131;
+    -webkit-box-shadow: 0px 2px 5px #313131;
+    box-shadow: 0px 2px 5px #313131;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8" http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Olga Dudina</title>
+    <link href=\'http://fonts.googleapis.com/css?family=Roboto:300&amp;subset=cyrillic-ext,cyrillic\'
+          rel=\'stylesheet\'
+          type=\'text/css\'>
+    <link href="main.css" rel="stylesheet" type="text/css"/>
+    <link href="icons.css" rel="stylesheet" type="text/css"/>
+    <style type="text/css">
+
+        table.productsTable {
+        width: 40%;
+        border-spacing: 5px;
+        border-style: outset;
+        border-color: gray;
+        border-collapse: separate;
+        background-color: white;
+        }
+
+        table.productsTable td {
+        border-width: 1px;
+        text-align: center;
+        border-style: inset;
+        border-color: gray;
+        background-color: white;
+        }
+
+    </style>
+</head>
+
+<script type='text/javascript' src="jquery-2.1.4.min.js"></script>
+<script>
+    $( function() {
+        $('#calc_1').click( function() {
+            var var1 = $('#var1_1').val();
+            var var2 = $('#var1_2').val();
+            $('#result_1').load( "/servletLab2?queryType=nearest_to_ten" + "&var1=" + var1 + "&var2=" + var2);
+        } );
+
+        $('#calc_2').click( function() {
+            var var1 = $('#var2_1').val();
+            var var2 = $('#var2_2').val();
+            var var3 = $('#var2_3').val();
+            $('#result_2').load( "/servletLab2?queryType=square_eq" + "&var1=" + var1 + "&var2=" + var2 + "&var3=" + var3);
+        } );
+
+        $('#calc_3').click( function() {
+            $('#result_3').load( "/servletLab2?queryType=matrix_8_5");
+        } );
+
+        $('#calc_4').click( function() {
+            $('#result_4').load( "/servletLab2?queryType=matrix_5_8");
+        } );
+        $('#lab3_calc_1').click( function() {
+            var var1 = $('#var_1').val();
+            var var2 = $('#var_2').val();
+            $('#lab3_result_1').load( "/servletLab3?var1=" + var1 + "&var2=" + var2 + "&withNums=false");
+        } );
+
+        $('#lab3_calc_2').click( function() {
+            var var1 = $('#var_1').val();
+            var var2 = $('#var_2').val();
+            $('#lab3_result').load( "/servletLab3?var1=" + var1 + "&var2=" + var2 + "&withNums=true");
+        } );
+    } );
+
+
+</script>
+
+<body>
+
+<div class="layout-center-wrapper">
+
+    <div class="avatar-in-profile avatar">
+        <img src="avatar.jpeg">
+
+        <div class="caption white">Olga Dudina</div>
+
+    </div>
+    <ul class="lab_list">
+        <li name="without">
+            <strong>Список лабораторных работ:</strong>
+        </li>
+        <li>
+            <a href="lab2.html">Лабораторная работа №2</a>
+            <a href="https://github.com/olgaoskina/itmo-web">исходный код</a>
+        </li>
+        <li>
+            <a href="lab3.html">Лабораторная работа №3</a>
+            <a href="https://github.com/olgaoskina/itmo-web">исходный код</a>
+        </li>
+        <li>
+            <a href="https://github.com/olgaoskina/itmo">Лабораторная работа №4</a>
+        </li>
+        <li>
+            <a href="https://github.com/olgaoskina/itmo">Лабораторная работа №6</a>
+        </li>
+    </ul>
+</div>
+
+
+<footer class="white">
+    <div class="layout-center-wrapper">
+        <div class="footer-social">
+            <a href="https://vk.com/os.dudina"
+               class="btn-social">
+                <i class="icon-vk"></i>
+            </a>
+            <a href="https://twitter.com/OskinaOlga"
+               class="btn-social">
+                <i class="icon-twitter"></i>
+            </a>
+            <a href="https://plus.google.com/108126331098709832414/posts"
+               class="btn-social">
+                <i class="icon-gplus"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
