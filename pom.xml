@@ -5,7 +5,7 @@
     <packaging>war</packaging>
     <version>v-1-0</version>
 
-    <groupId>olgadudina</groupId>
+    <groupId>yakimovaann</groupId>
     <artifactId>web-labs</artifactId>
 
     <properties>

@@ -5,7 +5,7 @@
          version="3.1">
     <servlet>
         <servlet-name>ServletLab3</servlet-name>
-        <servlet-class>com.olgadudina.labs.ServletLab3</servlet-class>
+        <servlet-class>com.yakimovaann.labs.ServletLab3</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ServletLab3</servlet-name>
@@ -14,7 +14,7 @@
 
     <servlet>
         <servlet-name>ServletLab2</servlet-name>
-        <servlet-class>com.olgadudina.labs.ServletLab2</servlet-class>
+        <servlet-class>com.yakimovaann.labs.ServletLab2</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>ServletLab2</servlet-name>
